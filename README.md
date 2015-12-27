@@ -10,7 +10,7 @@ The original zip file contains totally 10299 data that were divided into groups:
 4. Calculate mean for each column  
 
 ##Code Book 
-##(Applicable only for mean_for_each_measurement_subject.txt or tbl_df "ds2" in R)  
+###(Applicable only for mean_for_each_measurement_subject.txt or tbl_df "ds2" in R)  
 1.  Subject: The serial number of experiment participants (1~30)
 2.  Activity: The activity that participants perform (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING)
 3.  Features (column 3~68, the unit is normalized and bounded within [-1,1]):  
