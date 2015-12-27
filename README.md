@@ -4,9 +4,9 @@ The original dataset is from https://d396qusza40orc.cloudfront.net/getdata%2Fpro
 The main package used in the my project is "dplyr"  
 
 The original zip file contains totally 10299 data that were divided into groups: train and test. The main steps to get the final result are:  
-1. Combine these two group into one  
+1. Combine these two groups into one  
 2. Subtract the mean and variance of each measurement  
-3. Properly label both axis  
+3. Properly label both axes  
 4. Calculate mean for each column  
 
 ##Code Book 
@@ -21,4 +21,4 @@ The original zip file contains totally 10299 data that were divided into groups:
 
 >Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAccelerometer-XYZ, FrequencyBodyAccelerometerJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerometerJerkMagnitude, FrequencyBodyGyroscopeoMagnitude, FrequencyBodyGyroscopeJerkMagnitude.
 
-The above information are mostly from features_info.txt within the original zip file only with a little modification to make the code book better fit into the final dataset in my project. I do not own the copyright.
+The above information is mostly from features_info.txt within the original zip file only with a little modification to make the code book better fit into the final dataset in my project. I do not own the copyright.
