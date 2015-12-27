@@ -3,15 +3,15 @@
 The original dataset is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 The main package used in the my project is "dplyr"  
 
-The orginal zip file contains totally 10299 data that were dvided into groups: train and test.The main steps to get the final result are:  
-1. combine these two group into one  
-2. subtract the mean and variance of each measurement  
-3. properly label both axis  
-4. calculate mean for each column  
+The original zip file contains totally 10299 data that were divided into groups: train and test. The main steps to get the final result are:  
+1. Combine these two group into one  
+2. Subtract the mean and variance of each measurement  
+3. Properly label both axis  
+4. Calculate mean for each column  
 
 ##Code Book 
-##(applicable for mean_for_each_measurement_subject.txt or tbl_df "ds2" in R)  
-1.  Subject: The serial number of experientment participants (1~30)
+##(Applicable only for mean_for_each_measurement_subject.txt or tbl_df "ds2" in R)  
+1.  Subject: The serial number of experiment participants (1~30)
 2.  Activity: The activity that participants perform (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING)
 3.  Features (column 3~68, the unit is normalized and bounded within [-1,1]):  
 
@@ -21,4 +21,4 @@ The orginal zip file contains totally 10299 data that were dvided into groups: t
 
 >Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAccelerometer-XYZ, FrequencyBodyAccelerometerJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerometerJerkMagnitude, FrequencyBodyGyroscopeoMagnitude, FrequencyBodyGyroscopeJerkMagnitude.
 
-The above information are mostly from features_info.txt within the original zip file but I modify a little bit to better fit into the final dataset in my project. I do not own the copyright.
+The above information are mostly from features_info.txt within the original zip file only with a little modification to make the code book better fit into the final dataset in my project. I do not own the copyright.
